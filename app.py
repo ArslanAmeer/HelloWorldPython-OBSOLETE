@@ -160,7 +160,148 @@
 # for item in range(10):  # range(5,10)  range(5,10,2)
 #     print(item)
 
-numbers = [5, 2, 5, 2, 2]
+# numbers = [5, 2, 5, 2, 2]
+#
+# for item in numbers:
+#     print('x' * item)
 
-for item in numbers:
-    print('x' * item)
+# --- Lists
+# numbers = [10, 5, 300, 55, 2]
+# maxNumb = numbers[0]
+# for num in numbers:
+#     if num > maxNumb:
+#         maxNumb = num
+#
+# print(maxNumb)
+
+# --- 2D lists
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+# for row in matrix:
+#     for item in row:
+#         print(item)
+
+# --- List Methods
+
+# numbers = [1, 2, 3, 3, 4, 4, 1]
+#
+# numbers.append(20)
+# print(numbers)
+#
+# numbers.insert(0, 5)
+# print(numbers)
+#
+# numbers.remove(3)
+# print(numbers)
+#
+# numbers.pop()
+# print(numbers)
+#
+# print(numbers.index(4))
+#
+# print(4 in numbers)
+#
+# print(numbers.count(1))
+#
+# numbers.sort()
+# print(numbers)
+#
+# numbers.reverse()
+# print(numbers)
+#
+# numbers2 = numbers.copy()
+#
+# for item in numbers:
+#     count = numbers.count(item)
+#     if count > 1:
+#         numbers.remove(item)
+#
+# print(numbers)
+#
+# numbers = [2, 3, 4, 5, 6, 7, 8, 7, 6, 5, 4, 3, 2]
+# unique = []
+# for number in numbers:
+#     if number not in unique:
+#         unique.append(number)
+#
+# print(unique)
+
+
+# --- Tuples
+
+# numbers = (1, 2, 3, 4)
+
+# --- Unpacking
+
+# coordinates = (1, 2, 3)
+# x, y, z = coordinates
+
+# --- Dictionaries
+
+# customer = {
+#     "name": "Customer",
+#     "age": 36,
+#     "isVerified": True,
+# }
+#
+# # print(customer.get('look', 'stylish'))  # .get is able to return default value
+# phone = input('Phone: ')
+#
+# digitsMap = {
+#     "1": "one",
+#     "2": "two",
+#     "3": "three",
+#     "4": "Four"
+# }
+# output = ""
+# for dig in phone:
+#     output += digitsMap.get(dig, '-') + " "
+#
+# print(output)
+
+
+# --- Emoji Converter
+
+# mesg = input(">")
+# words = mesg.split(" ")
+# emojis = {
+#     ":)": "😊",
+#     ":(": "😊"
+# }
+# output = ""
+# for word in words:
+#     output += emojis.get(word, word) + " "
+#
+# print(output)
+
+# --- Functions
+
+# def emoji_converter(msg):
+#     words = msg.split(" ")
+#     emojis = {
+#         ":)": "😊",
+#         ":(": "😊"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#
+#     return output
+#
+#
+# mesg = input(">")
+# print(emoji_converter(mesg))
+
+
+# --- Exceptions
+# try:
+#     age = int(input("Age: "))
+#     nm = 200/age
+#     print(age)
+# except ValueError:
+#     print("Invalid Value")
+# except ZeroDivisionError:
+#     print('age cannot be zero')
