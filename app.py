@@ -363,7 +363,7 @@
 #
 # lbs_to_kg(100)
 
-#import utils
+# import utils
 #
 # nolists = [3, 6, 2, 4, 8, 14, 7]
 #
@@ -373,6 +373,28 @@
 
 
 # --- PACAKAGES
-from ecommerce import shipping
+# from ecommerce import shipping
+#
+# shipping.calc_shipping()
 
-shipping.calc_shipping()
+# --- Generate Random Values
+import random
+
+for i in range(3):
+    print(random.randint(10, 20))
+
+texts = ['ab', 'bc', 'cd', 'ef']
+
+print(random.choice(texts))
+
+
+class Dice:
+    def roll(self):
+        first = random.randint(1, 7)
+        second = random.randint(1, 7)
+        return first, second
+
+
+throwDice = Dice()
+
+print(throwDice.roll())
