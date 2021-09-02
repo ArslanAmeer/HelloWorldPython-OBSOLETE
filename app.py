@@ -363,10 +363,16 @@
 #
 # lbs_to_kg(100)
 
-import utils
+#import utils
 #
 # nolists = [3, 6, 2, 4, 8, 14, 7]
 #
 # # print(utils.find_max(nolists))
 #
 # print(max(nolists))
+
+
+# --- PACAKAGES
+from ecommerce import shipping
+
+shipping.calc_shipping()
