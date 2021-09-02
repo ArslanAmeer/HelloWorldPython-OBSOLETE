@@ -354,3 +354,19 @@
 # anm1.walk()
 # anm1.annoying()
 
+# --- Modules
+
+# import converters
+# from converters import lbs_to_kg
+#
+# print(converters.lbs_to_kg(70))
+#
+# lbs_to_kg(100)
+
+import utils
+#
+# nolists = [3, 6, 2, 4, 8, 14, 7]
+#
+# # print(utils.find_max(nolists))
+#
+# print(max(nolists))
